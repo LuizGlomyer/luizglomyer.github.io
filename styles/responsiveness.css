@@ -1,0 +1,60 @@
+@media (max-width: 750px) {
+  nav ul {
+    margin: 0 20px;
+    position: static;
+    display: block;
+    background-color: transparent;
+  }
+
+  nav ul:hover {
+    background-color: transparent;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+  nav ul a li {
+    font-size: 3vw;
+  }
+
+  section.landing h1 {
+    font-size: 7vw;
+  }
+
+  section.landing h2 {
+    font-size: 5vw;
+  }
+
+  section.landing p {
+    margin: 3vw;
+    font-size: 4.5vw;
+  }
+
+  div.line {
+    width: 15vw;
+  }
+
+}
+
+
+@media (max-width: 1200px) {
+  
+}
+
+
+
+
+@media (max-width: 90px) {
+  main ul {
+    grid-template-columns: 1fr;
+  }
+
+  section.landing h1 {
+    font-size: 45px;
+  }
+
+  img#pfp {
+    width: 115px;
+  }
+}

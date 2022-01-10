@@ -1,16 +1,289 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Portifólio</title>
-        <meta charset="utf-8">
+<html lang="pt-br">
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-    </head>
+<head>
+    <title>Portifólio</title>
+    <meta charset="utf-8">
 
-    <body>
-        <p>
-            Em construção. <br>
-            Under construction.
-        </p>
-    </body>
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/responsiveness.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="landing" id="home">
+        <nav>
+            <ul>
+                <a href="#habilidades"><li>Habilidades</li></a>
+                <a href="#interesses"><li>Interesses</li></a>
+                <a href="#projetos"><li>Projetos</li></a>
+                <a href="#contato"><li>Contato</li></a>
+            </ul>
+        </nav>
+
+        <div class="title">
+            <div class="name">
+                <h1>Luiz Carlos Glomyer</h1>
+                <h2>Pereira Gomes Junior</h2>
+            </div>
+        
+            <img class="unselectable" id="pfp" draggable="false" ondragstart="return false;" src="assets/pp.jpg">
+        </div>
+        
+        <div class="dev">
+            <div class="line"></div>
+            <p>Software developer</p>
+            <div class="line"></div>
+        </div>  
+        
+        <div id="git">
+            <a href="https://github.com/Glomyer?tab=repositories" target="_blank">
+                <img id="git-logo" class="unselectable" draggable="false" ondragstart="return false;" src="assets/logos/github.svg">
+            </a>
+            <a href="https://github.com/Glomyer?tab=repositories" target="_blank">
+                <p>Github</p>
+            </a>
+        </div>
+    </section>
+    
+
+    <section class="content">
+        <a href="#home">
+            <div id="home-button">
+                <i class="material-icons" style="display: inline-block;">home</i>
+                <p>home</p>
+            </div>
+        </a>
+
+
+        <div class="subject" id="habilidades">
+            <h1>Habilidades</h1>
+        </div>
+        <ul>
+            <li class="multiple-logos">
+                <div class="logos">
+                    <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/html.svg">
+                    <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/css.svg">
+                    <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/javascript.svg">
+                </div>
+                <h2>HTML, CSS e Javascript</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+
+            <li class="multiple-logos">
+                <div class="logos">
+                    <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/dart.svg">
+                    <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/flutter.svg">
+                </div>
+                <h2>Dart + Flutter</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/python.svg">
+                <h2>Linguagem Python</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+            
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/c.svg">
+                <h2>Linguagem C</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/cpp.svg">
+                <h2>Linguagem C++</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/java.svg">
+                <h2>Linguagem Java</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/sql.svg">
+                <h2>Banco de Dados e SQL</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/arduino.svg">
+                <h2>Arduino</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/illustrator.svg">
+                <h2>Adobe Illustrator</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/photoshop.svg">
+                <h2>Adobe Photoshop</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos/premiere.svg">
+                <h2>Adobe Premiere</h2>
+                <div>
+                    <p>Familiaridade : [.......................]</p>
+                    <p>Conhecimento: [.......................]</p>
+                </div>
+            </li>
+        </ul>
+
+
+        <div class="subject" id="habilidades">
+            <h1>Idiomas</h1>
+        </div>
+        <ul>
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/flags/br.png">
+                <h2>Português</h2>
+                <div>
+                    <p>Familiaridade: Língua materna</p>
+                    <p>Conhecimento: <b>Fluente</b></p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/flags/uk.png">
+                <h2>Inglês</h2>
+                <div>
+                    <p>Reading: <b>Fluente</b></p>
+                    <p>Listening: Avançado</p>
+                    <p>Writing: Avançado</p>
+                    <p>Speaking: Intermediário</p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/flags/jp.png">
+                <h2>Japonês</h2>
+                <div>
+                    <p>Familiaridade: Intermediário</p>
+                    <p>Conhecimento: Básico</p>
+                </div>
+            </li>
+        </ul>
+
+
+        <div class="subject" id="interesses">
+            <h1>Áreas de Interesse</h1>
+        </div>
+        <ul>
+            <li>
+                a
+            </li>
+            <li>a</li>
+        </ul>
+
+
+        <div class="subject" id="projetos">
+            <h1>Projetos</h1>
+        </div>
+        <ul>
+            <li>a</li>
+        </ul>
+
+
+        <div class="subject" id="contato">
+            <h1>Contato</h1>
+        </div>
+        <ul>
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos-contact/whatsapp.svg">
+                <h2>Celular</h2>
+                <div>
+                    <p><b>(92) 98131-9982</b></p>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos-contact/gmail.svg">
+                <h2>E-mails</h2>
+                <div>
+                    <a href="mailto:lcgpgj.snf20@uea.edu.br"><p><b>lcgpgj.snf20@uea.edu.br</b></p></a>
+                    <a href="mailto:glomyerjunior@hotmail.com"><p><b>glomyerjunior@hotmail.com</b></p></a>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos-contact/linkedin.svg">
+                <h2>Linkedin</h2>
+                <div>
+                    <a href="https://www.linkedin.com/in/luiz-glomyer/" target="_blank"><p>Luiz Glomyer</p></a>
+                </div>
+            </li>
+
+
+            <li>
+                <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos-contact/lattes.svg">
+                <h2>Currículo Lattes</h2>
+                <div>
+                    <a href="http://lattes.cnpq.br/8878676986644195" target="_blank"><p>Luiz Glomyer</p></a>
+                </div>
+            </li>
+        </ul>
+
+
+        <footer>
+            <a>
+        </footer>
+        
+    </section>
+    
+</body>
+
 </html>

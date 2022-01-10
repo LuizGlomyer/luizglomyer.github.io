@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #aaa;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+/* Landing page */
+
+section.landing {
+  background-image: url('../assets/bgs/15459.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: auto;
+}
+
+section.landing div.title { 
+  padding-top: 7%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+section.landing div.name {
+  display: inline-block;
+  background-color: orange;
+  box-shadow: 5px 5px 2px black;
+  align-self: center;
+  margin-right: 3%;
+}
+
+section.landing div.name:hover {
+  background-color: rgb(255, 136, 0);
+  box-shadow: 5px 5px 0 black;
+}
+
+section.landing h1 {
+  line-height: 5vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 6vw;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+section.landing h2 {
+  margin-top: 0;
+  font-size: 4vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+
+section.landing div.dev {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.landing div.dev * {
+  display: inline-block;
+}
+
+div#git  {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+div#git p:hover {
+  box-shadow: none;
+}
+
+section.landing a img {
+  justify-items: center;
+  align-items: center;
+}
+
+div.line {
+  background-color: rgb(175, 174, 170);
+  height: 1.2vw;
+  width: 20vw;
+  border: black dashed 0.35vw;
+}
+
+
+section.landing p {
+  margin: 10px 3%;
+  font-size: 2.5vw;
+  font-family: monospace;
+}
+
+section.landing p:hover {
+  color: navy;
+  box-shadow: 2px 2px 2px black;
+}
+
+
+div.subject {
+  background-image: url("../assets/bgs/tortoise-shell.svg");
+  background-attachment: fixed;
+  background-size: 60%;
+  padding: 2vw; 
+}
+
+div.subject h1 {
+  background: rgba(0, 0, 0, 0.65);
+  display: inline-block;
+  font-family: monospace;
+  color: white;
+  font-size: 4vw;
+}
+
+
+
+div.subject div a {
+  color: white;
+}
+
+
+section.content {
+  background-image: url("../assets/bgs/protruding-squares.svg");
+}
+
+section.content a div#home-button {
+  position: sticky;
+  top: 0;
+  float: right;
+  padding: 0.5vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px double black;
+  display: flex;
+  align-items: flex-end;
+  justify-items: center;
+  
+}
+
+section.content a div#home-button:hover {
+  background-color: black;
+  border: 5px double green;
+}
+
+section.content a div#home-button p {
+  font-size: 2vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+section.content a div#home-button p:hover {
+  text-decoration: underline;
+}
+
+section.content ul {
+  padding: 1% 2%;
+  margin: 30px auto;
+  background-color: white;
+  width: 75%;
+  box-shadow: 4px 4px 2px black;
+}
+
+section.content ul:hover {
+  box-shadow: 4px 4px 0px black;
+}
+
+section.content ul li {
+  position: relative;
+  border-bottom: 1px dashed black;
+  padding: 2% 0;
+  list-style: none;
+  display: grid;
+  grid-template-areas: "logo title"
+                       "logo content";
+  grid-template-columns: min-content;
+}
+
+
+
+section.content ul li h2 {
+  margin: 0 auto;
+  grid-area: title;
+}
+
+section.content ul li div {
+  grid-area: content;
+  justify-self: center;
+}
+
+
+
+
+
+section.content ul li.multiple-logos {
+  grid-template-columns: max-content;
+}
+
+section.content ul li div.logos {
+  grid-area: logo;
+}
+
+
+
+
+
+
+.unselectable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
+i.material-icons {
+  margin: 0 auto;
+  color: white;
+  font-size: 3vw;
+}
+
+ 
+
+
+img#pfp {
+  border-radius: 50%;
+  width: 16vw;
+}
+
+img#git-logo {
+  margin-right: 2vw;
+  width: 8vw;
+}
+
+img.logo {
+  width: 10vw;
+  grid-area: logo;
+}
+
+nav ul {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  left: 15%;
+  text-align: center;
+  border-radius: 50px;
+}
+
+
+nav ul:hover {
+  background-color: rgba(0, 0, 0, 0.31);
+}
+
+nav ul li {
+  background-color: rgba(0, 0, 0, 0.625);
+  display: inline-block;
+  padding: 0 5px;
+  margin: 0 10px;
+  border: 5px double black;
+}
+
+nav ul li:hover {
+  background-color: black;
+  border: 5px double green;
+}
+
+nav ul a li {
+  font-size: 2vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul a li:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
