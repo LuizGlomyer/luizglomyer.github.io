@@ -6,8 +6,7 @@
     <meta charset="utf-8">
 
     <link href="styles/styles.css" rel="stylesheet">
-    <link href="styles/responsiveness.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link href="styles/responsivity.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
@@ -22,7 +21,7 @@
                 <a href="#contato"><li>Contato</li></a>
             </ul>
         </nav>
-
+        
         <div class="title">
             <div class="name">
                 <h1>Luiz Carlos Glomyer</h1>
@@ -59,7 +58,7 @@
 
 
         <div class="subject" id="habilidades">
-            <h1>Habilidades</h1>
+            <h1><a href="#habilidades">Habilidades</a></h1>
         </div>
         <ul>
             <li class="multiple-logos">
@@ -180,8 +179,8 @@
         </ul>
 
 
-        <div class="subject" id="habilidades">
-            <h1>Idiomas</h1>
+        <div class="subject" id="idiomas">
+            <h1><a href="#idiomas">Idiomas</a></h1>
         </div>
         <ul>
             <li>
@@ -218,26 +217,98 @@
 
 
         <div class="subject" id="interesses">
-            <h1>Áreas de Interesse</h1>
+            <h1><a href="#interesses">Áreas de Interesse</a></h1>
         </div>
         <ul>
             <li>
-                a
+                <i class="material-icons" style="display: inline-block;">phonelink</i>
+                <h3>Desenvolvimento Full Stack</h3>
             </li>
-            <li>a</li>
+
+            <li>
+                <i class="material-icons" style="display: inline-block;">android</i>
+                <h3>Aplicativos Android</h3>
+            </li>
+
+            <li>
+                <i class="material-icons" style="display: inline-block;">cloud</i>
+                <h3>Computação em nuvem</h3>
+            </li>
+
+            <li>
+                <i class="material-icons" style="display: inline-block;">security</i>
+                <h3>Segurança digital</h3>
+            </li>
+
+            <li>
+                <i class="material-icons" style="display: inline-block;">settings_remote</i>
+                <h3>Sistemas embarcados</h3>
+            </li>
+
+            <li>
+                <i class="material-icons" style="display: inline-block;">save</i>
+                <h3>Arquivamento digital</h3>
+            </li>
+            
+
+            <li>
+                <i class="material-icons" style="display: inline-block;">videogame_asset</i>
+                <h3>Gamedev</h3>
+            </li>
+
         </ul>
 
 
         <div class="subject" id="projetos">
-            <h1>Projetos</h1>
+            <h1><a href="#projetos">Projetos</a></h1>
         </div>
         <ul>
-            <li>a</li>
+            <li class="project">
+                <a href="https://github.com/LuizGlomyer/name-generator" target="_blank">
+                    <img class="horizontal" src="assets/projects/name generator.png">
+                </a>
+                <p>API criada em Python junto com o framework Flask para a geração de dados aleatórios, como
+                    nomes femininos, masculinos, números de telefone, CPFs, datas e horas. Há possibilidade
+                    de aplicar os métodos de hash md5, sha256 e sha512 para um determinado conjunto de caracteres enviado. 
+                    Deploy realizado na plataforma Heroku.
+                </p>
+            </li>
+
+
+            <li class="project">
+                <iframe src="https://www.youtube.com/embed/WPKt33QaGHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Trabalho em vídeo sobre a Arena Poliesportiva Amadeu Teixeira para a disciplina Introdução 
+                   à Engenharia de minha universidade, UEA. Editado com Adobe Premiere.
+                </p>
+            </li>
+
+
+            <li class="project">
+                <a href="assets/projects/StarWars.png" target="_blank">
+                    <img src="assets/projects/StarWars preview.png">
+                </a>
+                <p>Um dos trabalhos finais que fiz para meu cursinho de design. É uma composição de imagens, 
+                   ou montagem de várias imagens em uma só. Feito em Adobe Photoshop.
+                </p>
+            </li>
+
+
+            <li class="project">
+                <a href="assets/projects/RevistaMG.pdf" target="_blank">
+                    <img src="assets/projects/RevistaMG preview.png">
+                </a>
+                <p>Outro de meus trabalhos que fiz para meu cursinho, a diagramação de uma revista.
+                   Realizado no software Adobe InDesign.
+                </p>
+            </li>
+
+            
+
         </ul>
 
 
         <div class="subject" id="contato">
-            <h1>Contato</h1>
+            <h1><a href="#contato">Contato</a></h1>
         </div>
         <ul>
             <li>
@@ -261,7 +332,7 @@
 
             <li>
                 <img class="logo unselectable" draggable="false" ondragstart="return false;" src="assets/logos-contact/linkedin.svg">
-                <h2>Linkedin</h2>
+                <h2>LinkedIn</h2>
                 <div>
                     <a href="https://www.linkedin.com/in/luiz-glomyer/" target="_blank"><p>Luiz Glomyer</p></a>
                 </div>

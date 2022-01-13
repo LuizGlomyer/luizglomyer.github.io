@@ -25,10 +25,12 @@ section.landing {
   overflow: auto;
 }
 
-section.landing div.title { 
-  padding-top: 7%;
+section.landing div.title {
+  padding-top: 12vh;
   justify-content: center;
   align-items: center;
+  align-self: center;
+  align-content: center;
   display: flex;
 }
 
@@ -60,7 +62,6 @@ section.landing h2 {
   font-weight: 500;
 }
 
-
 section.landing div.dev {
   margin-top: 1%;
   display: flex;
@@ -72,9 +73,16 @@ section.landing div.dev * {
   display: inline-block;
 }
 
-div#git  {
-  margin-top: 5%;
-  margin-bottom: 5%;
+div.dev div.line {
+  background-color: rgb(175, 174, 170);
+  height: 1.2vw;
+  width: 20vw;
+  border: black dashed 0.35vw;
+}
+
+div#git {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -90,14 +98,6 @@ section.landing a img {
   justify-items: center;
   align-items: center;
 }
-
-div.line {
-  background-color: rgb(175, 174, 170);
-  height: 1.2vw;
-  width: 20vw;
-  border: black dashed 0.35vw;
-}
-
 
 section.landing p {
   margin: 10px 3%;
@@ -115,7 +115,7 @@ div.subject {
   background-image: url("../assets/bgs/tortoise-shell.svg");
   background-attachment: fixed;
   background-size: 60%;
-  padding: 2vw; 
+  padding: 2vw;
 }
 
 div.subject h1 {
@@ -126,52 +126,29 @@ div.subject h1 {
   font-size: 4vw;
 }
 
-
-
-div.subject div a {
+div.subject h1 a {
   color: white;
+  text-decoration: none;
 }
 
+/* Main page content*/
 
 section.content {
+  
   background-image: url("../assets/bgs/protruding-squares.svg");
 }
 
-section.content a div#home-button {
-  position: sticky;
-  top: 0;
-  float: right;
-  padding: 0.5vw;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 5px double black;
-  display: flex;
-  align-items: flex-end;
-  justify-items: center;
-  
-}
-
-section.content a div#home-button:hover {
-  background-color: black;
-  border: 5px double green;
-}
-
-section.content a div#home-button p {
-  font-size: 2vw;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-decoration: none;
-  color: white;
-}
-
-section.content a div#home-button p:hover {
-  text-decoration: underline;
-}
-
 section.content ul {
-  padding: 1% 2%;
+  padding: 1% 2vw;
   margin: 30px auto;
   background-color: white;
   width: 75%;
   box-shadow: 4px 4px 2px black;
+}
+
+section.content ul:last-of-type {
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 section.content ul:hover {
@@ -185,15 +162,8 @@ section.content ul li {
   list-style: none;
   display: grid;
   grid-template-areas: "logo title"
-                       "logo content";
+    "logo content";
   grid-template-columns: min-content;
-}
-
-
-
-section.content ul li h2 {
-  margin: 0 auto;
-  grid-area: title;
 }
 
 section.content ul li div {
@@ -202,70 +172,67 @@ section.content ul li div {
 }
 
 
+section.content ul li h2 {
+  font-size: 3vw;
+  margin: 0 auto;
+  grid-area: title;
+  text-align: center;
+}
 
+section.content ul li h3 {
+  font-size: 2vw;
+  align-self: center;
+  justify-self: center;
+}
 
+section.content ul li p {
+  text-align: center;
+  font-size: 1.5vw;
+}
 
 section.content ul li.multiple-logos {
   grid-template-columns: max-content;
 }
 
 section.content ul li div.logos {
+  align-items: center;
+  align-self: center;
   grid-area: logo;
 }
 
+section.content ul li.project {
+  grid-template-areas: "project description";
+  grid-template-columns: max-content;
+}
 
+section.content ul li.project a img {
+  grid-area: "project";
+  align-self: center;
+  align-content: center;
+  align-items: center;
+}
 
-
-
-
-.unselectable {
-  user-drag: none; 
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
+section.content ul li.project p {
+  grid-area: "description";
+  margin-left: 2vw;
+  font-size: 1.5vw;
+  text-align: justify;
 }
 
 
-i.material-icons {
-  margin: 0 auto;
-  color: white;
-  font-size: 3vw;
-}
-
- 
-
-
-img#pfp {
-  border-radius: 50%;
-  width: 16vw;
-}
-
-img#git-logo {
-  margin-right: 2vw;
-  width: 8vw;
-}
-
-img.logo {
-  width: 10vw;
-  grid-area: logo;
-}
+/* Navigation bar and home button*/
 
 nav ul {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   display: inline-block;
   position: absolute;
   top: 0;
-  right: 15%;
-  left: 15%;
+  width: 100%;
   text-align: center;
-  border-radius: 50px;
 }
 
-
 nav ul:hover {
-  background-color: rgba(0, 0, 0, 0.31);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 nav ul li {
@@ -292,30 +259,81 @@ nav ul a li:hover {
   text-decoration: underline;
 }
 
+section.content a div#home-button {
+  position: sticky;
+  top: 0;
+  float: right;
+  padding: 0.5vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px double black;
+  display: flex;
+  align-items: flex-end;
+  justify-items: center;
+}
+
+section.content a div#home-button:hover {
+  background-color: black;
+  border: 5px double green;
+}
+
+section.content a div#home-button p {
+  font-size: 2vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+section.content a div#home-button p:hover {
+  text-decoration: underline;
+}
 
 
+div i.material-icons {
+  margin: 0 auto;
+  color: white;
+  font-size: 3vw;
+}
+
+li i.material-icons {
+  color: black;
+  font-size: 5vw;
+}
 
 
+img#pfp {
+  border-radius: 50%;
+  width: 16vw;
+}
+
+img#git-logo {
+  margin-right: 2vw;
+  width: 18vh;
+}
+
+img.logo {
+  width: 10vw;
+  grid-area: logo;
+}
+
+li a img {
+  width: 20vw;
+}
+
+li a img.horizontal {
+  width: 40vw;
+}
+
+iframe {
+  width: 32vw;
+  height: 18vw;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.unselectable {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
