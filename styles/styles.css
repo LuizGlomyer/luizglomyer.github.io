@@ -134,7 +134,6 @@ div.subject h1 a {
 /* Main page content*/
 
 section.content {
-  
   background-image: url("../assets/bgs/protruding-squares.svg");
 }
 
@@ -296,7 +295,12 @@ div i.material-icons {
 
 li i.material-icons {
   color: black;
-  font-size: 5vw;
+  font-size: 6vw;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
 }
 
 
@@ -308,6 +312,7 @@ img#pfp {
 img#git-logo {
   margin-right: 2vw;
   width: 18vh;
+  overflow: visible;
 }
 
 img.logo {
@@ -336,4 +341,43 @@ iframe {
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+
+
+
+
+div.ability p {
+  display: inline-block;
+}
+
+div.ability div.bg {
+  display: inline-block;  
+  position: relative;
+  box-sizing: content-box;
+  width: 20vw;
+  text-align: center;
+  background: darkgrey;
+  border: black 5px double;
+  
+}
+
+div.ability div div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  width: 16vw;
+  height: 100%;
+  background-color: crimson;
+  color: transparent;
+}
+
+div.ability div p {
+  position: relative;
+  z-index: 1;
+  font-family: monospace;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: green;
 }

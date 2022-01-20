@@ -1,3 +1,9 @@
+# Libs used:
+- [anime.js](https://animejs.com/)
+- [Waypoints](http://imakewebthings.com/waypoints/)
+
+
+# Graphical Assets used:
 Landing page bg:
 - [Designed by starline / Freepik](https://br.freepik.com/vetores-gratis/fundo-de-estilo-de-seta-branca-limpa-cubtle_3086383.htm)
 
