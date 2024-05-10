@@ -1,0 +1,17 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "sobre"
+pageRef = "about"
+identifier = "3iNIwabkr0"
+weight = 1
+
+[[main]]
+name = "postagens"
+pageRef = "posts"
+identifier = "LDqSCamIGM"
+weight = 2
+
+[[footer]]
+none = "none"

@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Portfolio"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "January 2 2006"
+
+[author]
+name = "Luiz Glomyer"
+headline = "amogus en"
+image = "img/pfp.jpg"
+bio = "A little bit about me"
+links = [
+  { github = "https://github.com/LuizGlomyer" },
+  { linkedin = "https://linkedin.com/in/luiz-glomyer" },
+  { email = "glomyerjunior@hotmail.com" },
+  { youtube = "https://www.youtube.com/@LuizGlomyer" },
+  { whatsapp = "https://wa.me/5592981319982" },
+]
