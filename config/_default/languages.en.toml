@@ -11,13 +11,13 @@ dateFormat = "January 2 2006"
 
 [author]
 name = "Luiz Glomyer"
-headline = "amogus en"
+headline = "Software Developer"
 image = "img/pfp.jpg"
-bio = "A little bit about me"
+bio = "I am passionate about knowledge, I always seek to learn new things and improve myself as a person."
 links = [
   { github = "https://github.com/LuizGlomyer" },
   { linkedin = "https://linkedin.com/in/luiz-glomyer" },
-  { email = "glomyerjunior@hotmail.com" },
+  { email = "mailto:glomyerjunior@hotmail.com" },
   { youtube = "https://www.youtube.com/@LuizGlomyer" },
   { whatsapp = "https://wa.me/5592981319982" },
 ]
