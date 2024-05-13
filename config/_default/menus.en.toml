@@ -13,5 +13,11 @@ pageRef = "posts"
 identifier = "LDqSCamIGM"
 weight = 2
 
+[[main]]
+name = "experience"
+pageRef = "experience"
+identifier = "tBh2XUBOsj"
+weight = 3
+
 [[footer]]
 none = "none"
