@@ -2,17 +2,12 @@
 title: "Sobre mim"
 description: "Conteúdo da página Sobre"
 showDate: false
-showReadingTime: false
-
-draft: true
 ---
-
 
 Olá! Me chamo Luiz, sou desenvolvedor Full Stack graduado no curso de `Sistemas de Informação` pela Universidade do Estado do Amazonas (UEA), atualmente fazendo uma especialização na área de `Teste de Software` e focando em `DevOps`. Sou apaixonado por conhecimento, estou sempre estudando algo novo para mim 📚.
 
 - Atualmente estudando: **["Clean Architecture", "Teste de Software"]**
 - Pretendo estudar: **["Kubernetes", "AWS", "Gamedev (Godot)"]**
-
 
 
 ## 🛠️ Habilidades
@@ -29,12 +24,6 @@ No mundo da programação estamos sempre usando ferramentas, frameworks e biblio
 ## 💬 Idiomas
 Sou autodidata em língua inglesa, possuo reading fluente, writing e listening avançados e speaking intermediário; recentemente comecei a estudar a língua japonesa também.
 
-## 👨‍💻 Experiência
-## 👨‍🎓 Escolaridade
-## 💪 Cursos e certificados
-## 📖 Publicações
-
-
 
 ## 💻 Tech Stack (***Em construção!***):
 
@@ -42,7 +31,7 @@ Sou autodidata em língua inglesa, possuo reading fluente, writing e listening a
 
 ## 📊 GitHub Stats:
 
-Costumo programar ocasionalmente no meu tempo livre. Meu Github pessoal contém principalmente alguns projetos próprios ou repositórios para aprendizado de novas ferramentas.0
+Costumo programar ocasionalmente no meu tempo livre. Meu Github pessoal contém principalmente alguns projetos próprios ou repositórios para aprendizado de novas ferramentas.
 
 ![](https://github-readme-stats.vercel.app/api?username=LuizGlomyer&theme=monokai&hide_border=false&include_all_commits=false&count_private=false)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=LuizGlomyer&theme=monokai&hide_border=false)

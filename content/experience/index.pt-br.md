@@ -2,8 +2,6 @@
 title: "Experiência"
 description: "Experience page content"
 showDate: false
-
-draft: true
 ---
 
 ## 👨‍💻 Experiência
@@ -73,7 +71,7 @@ draft: true
     icon="graduation-cap" 
     header="Universidade do Estado do Amazonas (UEA)" 
     badge="Graduação" 
-    subheader="Manaus/AM, 02/2020 - 05/2023" >}}
+    subheader="Bacharelado em Sistemas de Informação" >}}
 
   Participação de projetos internos. Participação em projeto de Monitoria para a disciplina Matemática Discreta.
 
@@ -81,9 +79,9 @@ draft: true
 
    {{< timelineItem 
     icon="graduation-cap" 
-    header="Instituto Federal do AM (IFAM)" 
-    badge="Pós-graduação" 
-    subheader="Manaus/AM, 02/2020 - 05/2023" >}}
+    header="Instituto Federal do Amazonas (IFAM)" 
+    badge="Pós" 
+    subheader="Pós-graduação em Teste de Software" >}}
 
   Em andamento. Escrita de um artigo para publicação em livro.
 
@@ -93,9 +91,9 @@ draft: true
     icon="graduation-cap" 
     header="GRACOM School of Visual Effects" 
     badge="Técnico" 
-    subheader="Manaus/AM, 05/2015 - 03/2020" >}}
+    subheader="Formação em Design Gráfico" >}}
 
-  Formação em Design Gráfico. Uso de ferramentas de vetorização (Adobe Illustrator), rasterização (Adobe Photoshop), diagramação (Adobe InDesign) e pacote Adobe em geral. <br />
+  Uso de ferramentas de vetorização (Adobe Illustrator), rasterização (Adobe Photoshop), diagramação (Adobe InDesign) e pacote Adobe em geral. <br />
 
   <b style="color:#bef264">Certificados</b>: <a href="https://drive.google.com/file/d/15ozzbJ7kk8Ey3eKg24LOqk7x9Mgmj_az/view?usp=sharing" target="_blank">OPEN CG</a>
   
