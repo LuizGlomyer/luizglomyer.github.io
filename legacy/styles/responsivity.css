@@ -1,0 +1,172 @@
+@media (max-aspect-ratio: 16/9) {
+  section.landing div.title {
+    padding-top: 20vh;
+  }
+
+  section.landing h1 {
+    font-size: 7vw;
+  }
+
+  section.landing h2 {
+    font-size: 5vw;
+  }
+
+  section.landing p {
+    margin: 10px 3%;
+    font-size: 3vw;
+    font-family: monospace;
+  }
+
+
+  nav ul a li {
+    font-size: 2.5vw;
+  }
+
+  div.subject h1 {
+    font-size: 5vw;
+  }
+
+  img#git-logo {
+    margin-right: 2vw;
+    width: 15vh;
+  }
+}
+
+
+
+@media (max-aspect-ratio: 1/1) {
+  nav ul li {
+    margin: 0;
+    height: 10vw;
+    display: inline-flex; 
+    align-items: center;
+  }
+
+  nav ul a li {
+    font-size: 3vw;
+  }
+
+  div.subject h1 {
+    font-size: 7vw;
+  }
+
+  section.landing p {
+    margin: 3vw;
+    font-size: 4.5vw;
+  }
+
+  section.landing div.dev {
+    margin: 5% 0;
+  }
+
+  div.dev div.line {
+    width: 15vw;
+    height: 2vh;
+    border: black dashed 0.5vh;
+  }
+
+  div.subject {
+    background-size: 75%;
+  }
+
+}
+
+
+
+@media(max-aspect-ratio: 3/4) {
+  section.landing div.title {
+    padding-top: 15vh;
+    flex-direction: column-reverse;
+  }
+  
+  section.landing div.name {
+    margin: 2%;
+  }
+
+  section.landing h1 {
+    font-size: 9vw;
+  }
+
+  section.landing h2 {
+    font-size: 7vw;
+  }
+
+  section.landing p {
+    margin: 3vw;
+    font-size: 7vw;
+  }
+
+  img#pfp {
+    width: 20vh;
+  }
+
+  img.logo {
+    width: 20vw;
+  }
+
+  li i.material-icons {
+    font-size: 15vw;
+  }
+
+  div.logos img.logo {
+    width: 10vw;
+  }
+
+  section.landing div.dev{
+    flex-direction: column;
+    margin: 5% 0;
+  }
+  
+
+  div.dev div.line {
+    width: 70%;
+    height: 1.5vh;
+    border: black dashed 0.5vw;
+  }
+
+  div.subject {
+    background-size: 85%;
+  }
+
+  div.subject h1 {
+    font-size: 10vw;
+  }
+  section.content a div#home-button p {
+    font-size: 5vw;
+  }
+
+  div i.material-icons {
+    font-size: 6vw;
+  }
+
+  section.content ul {
+    display: flexbox;
+    width: 90%;
+  }
+
+  section.content ul li p {
+    font-size: 3vw;
+  }
+
+  section.content ul li.project p {
+    font-size: 3vw;
+  }
+
+  section.content ul li h2 {
+    font-size: 5.5vw;
+  }
+  
+  section.content ul li h3 {
+    font-size: 4vw;
+  }
+}
+
+@media(max-aspect-ratio: 9/16) {
+  
+  section.landing div.dev{
+    flex-direction: column;
+    margin: 5% 0;
+  }
+}
+
+
