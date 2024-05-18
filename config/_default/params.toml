@@ -3,10 +3,11 @@ defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
-disableImageOptimization = false
+disableImageOptimization = true
 disableTextInHeader = false
-defaultBackgroundImage = "bh.jpg"
-#highlightCurrentMenuArea = true
+defaultBackgroundImage = "fred-moon-3NvRkNaiHtc-unsplash.jpg"
+highlightCurrentMenuArea = true
+smartTOC = true
 
 [header]
 layout = "fixed"
@@ -14,19 +15,19 @@ layout = "fixed"
 [footer]
 showMenu = true
 showCopyright = true
-showThemeAttribution = false
+showThemeAttribution = true
 showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
 layout = "background"
-showRecent = true
+showRecent = false
 showRecentItems = 6
 showMoreLink = true
 showMoreLinkDest = "/posts"
 cardView = true
 cardViewScreenWidth = false
-layoutBackgroundBlur = true
+layoutBackgroundBlur = false
 
 [article]
 showDate = true
@@ -55,7 +56,8 @@ showWordCount = true
 showZenMode = false
 
 [list]
-showHero = false
+showHero = true
+heroStyle = "background"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
@@ -70,12 +72,12 @@ cardViewScreenWidth = false
 constrainItemsWidth = false
 
 [sitemap]
-excludedKinds = ["taxonomy", "term"]
+excludedKinds = [ "taxonomy", "term" ]
 
 [taxonomy]
 showTermCount = true
 showHero = true
-heroStyle = "basic"
+heroStyle = "background"
 showBreadcrumbs = true
 showViews = false
 showLikes = false
@@ -83,8 +85,9 @@ showTableOfContents = true
 cardView = false
 
 [term]
-showHero = false
-showBreadcrumbs = false
+showHero = true
+heroStyle = "background"
+showBreadcrumbs = true
 showViews = false
 showLikes = false
 showTableOfContents = true

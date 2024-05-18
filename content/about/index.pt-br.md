@@ -2,6 +2,7 @@
 title: "Sobre mim"
 description: "Conteúdo da página Sobre"
 showDate: false
+date: 1
 ---
 
 Olá! Me chamo Luiz, sou desenvolvedor Full Stack graduado no curso de `Sistemas de Informação` pela Universidade do Estado do Amazonas (UEA), atualmente fazendo uma especialização na área de `Teste de Software` e focando em `DevOps`. Sou apaixonado por conhecimento, estou sempre estudando algo novo para mim 📚.

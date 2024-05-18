@@ -2,6 +2,7 @@
 title: "Experiência"
 description: "Experience page content"
 showDate: false
+date: 2
 ---
 
 ## 👨‍💻 Experiência

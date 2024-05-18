@@ -2,11 +2,12 @@
 title: "About"
 description: "About page content"
 showDate: false
+date: 1
 ---
 
 Hello, my name is Luiz, I'm a Full Stack developer with a degree in the field of `Information Systems` from the Amazonas State University (UEA), currently specializing in `Software Testing` and focusing on `DevOps`. I'm passionate about knowledge, I'm always studying something new 📚.
 
-- Currently studying: **["Clean Architecture", "Teste de Software"]**
+- Currently studying: **["Clean Architecture", "Software Testing"]**
 - I intend to study: **["Kubernetes", "AWS", "Gamedev (Godot)"]**
 
 
