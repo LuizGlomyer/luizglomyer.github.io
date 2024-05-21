@@ -10,6 +10,7 @@ Hello, my name is Luiz, I'm a Full Stack developer with a degree in the field of
 - Currently studying: **["Clean Architecture", "Software Testing"]**
 - I intend to study: **["Kubernetes", "AWS", "Gamedev (Godot)"]**
 
+[{{< icon "link" >}} Curriculum Vitae](https://docs.google.com/document/d/1pWOLM3bpgHZk9PTo19ceghm0OWaITgHf/edit?usp=sharing&ouid=116803951867542551138&rtpof=true&sd=true)
 
 ## 🛠️ Skills
 

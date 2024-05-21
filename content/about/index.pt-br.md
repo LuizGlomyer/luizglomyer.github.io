@@ -10,6 +10,7 @@ Olá! Me chamo Luiz, sou desenvolvedor Full Stack graduado no curso de `Sistemas
 - Atualmente estudando: **["Clean Architecture", "Teste de Software"]**
 - Pretendo estudar: **["Kubernetes", "AWS", "Gamedev (Godot)"]**
 
+[{{< icon "link" >}} Curriculum Vitae](https://docs.google.com/document/d/1pWOLM3bpgHZk9PTo19ceghm0OWaITgHf/edit?usp=sharing&ouid=116803951867542551138&rtpof=true&sd=true)
 
 ## 🛠️ Habilidades
 
