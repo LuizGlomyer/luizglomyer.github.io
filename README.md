@@ -1,19 +1,38 @@
 # luizglomyer.github.io
 
-My personal website. Built with [Hugo](https://gohugo.io/) and [Blowfish](https://blowfish.page/). It uses Github Pages as the hosting service, the website is deployed everytime a new commit gets into the main branch, thanks to Github Actions. You can access the site here: https://luizglomyer.github.io
+[![Website preview](docs/preview.jpg)](https://luizglomyer.github.io)
+
+My personal website, a place for showing some of my projects and skills, to talk about technology, to share my thoughts and to sometimes ramble about random stuff.
+
+ Built with [Hugo](https://gohugo.io/) and [Blowfish](https://blowfish.page/). It uses Github Pages as the hosting service, the website is deployed everytime a new commit gets into the main branch, thanks to Github Actions. You can access the site here: https://luizglomyer.github.io
 
 
 ## Getting Started
 
-To build the static files for your website, run the following command:
+To build the static files for the website, run the following command:
 ```bash
 hugo
 ```
 
-To start the development server and preview the website locally, run the following command:
+To run a development server, use the following command: 
+
 ```bash
-hugo server -D
+hugo server --watch --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313 --buildDrafts --disableFastRender
+```
+- `--watch` to watch for file changes
+- `--bind=0.0.0.0` `--baseURL=http://0.0.0.0:1313` to expose the server in the network.
+- `--buildDrafts` to show articles even if they are marked as a draft.
+- `--disableFastRender` for full rebuilds on file changes
+
+## Blowfish configurations
+
+The Blowfish theme has come configurations that are defined in the .toml files. There is a CLI tool that helps with that. Install and run blowfish-tools using:
+```bash
+npx blowfish-tools
+
+blowfish-tools
 ```
 
-This command will build your site, parse draft files and start a local web server. You can then access your site at http://localhost:1313 in your web browser. Flags of note are: `--watch` to watch for file changes and `--bind=0.0.0.0` `--baseURL=http://0.0.0.0:1313` to expose the server in the network.
+## Credits
 
+Background image: https://unsplash.com/photos/blue-and-white-light-illustration-3NvRkNaiHtc
