@@ -1,0 +1,15 @@
+html {
+  background-image: url("../../posts/svg-animations/featured.svg");
+  overflow: hidden;
+  /*
+  transform: scale(1.2);
+    height: 10%; 
+    width: 70%;
+  background-size: cover; 
+  */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}

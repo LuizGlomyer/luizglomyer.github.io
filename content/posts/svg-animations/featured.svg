@@ -1,0 +1,437 @@
+<svg style="overflow:visible" class="checkerboard" width="500" height="500"
+  xmlns="http://www.w3.org/2000/svg">
+  <style>
+    body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    }
+
+    ellipse, circle {
+    /*mix-blend-mode: screen;*/
+    }
+
+    .red {
+    fill: rgb(255, 0, 0);
+    opacity:50%;
+    }
+
+    .green {
+    fill: rgb(0, 255, 0);
+    }
+
+    .blue {
+    fill: rgb(20, 80, 255);
+    }
+
+    .reference-point {
+    fill: black;
+    }
+
+    .checkerboard {
+    overflow: visible;
+
+    /* Fallback color */
+    background-color: #FFF36F;
+    }
+
+  </style>
+  <defs>
+    <defs>
+      <ellipse id="ellipseXtraLarge" rx="100" ry="40" />
+      <ellipse id="ellipseLarge" rx="80" ry="30" />
+      <ellipse id="ellipseRegular" rx="70" ry="25" />
+      <ellipse id="ellipseSmall" rx="60" ry="20" />
+      <ellipse id="ellipseXtraSmall" rx="50" ry="17" />
+    </defs>
+  </defs>
+
+  <!-- <ellipse rx="100" ry="100" cx="250" cy="250" fill="blue">
+    <animate attributeName="cx" begin="0s" dur="2s" from="calc(100px)" to="calc(500px + 100px)"
+      repeatCount="indefinite"
+      fill="freeze" />
+  </ellipse>
+
+  <ellipse rx="100" ry="100" cx="-100" cy="250" fill="blue">
+    <animate attributeName="cx" begin="0s" dur="2s" from="calc(-500px + 100px)" to="calc(100px)"
+      repeatCount="indefinite"
+      fill="freeze" />
+  </ellipse>
+
+
+  <circle cx="50" cy="50" r="50" class="red">
+    <animate attributeName="cx" begin="0s" dur="3s" from="calc(100px)" to="calc(500px + 100px)"
+      repeatCount="indefinite"
+      fill="freeze" />
+  </circle>
+
+  <circle cx="50" cy="50" r="50" class="red">
+    <animate attributeName="cx" begin="0s" dur="3s" from="calc(-500px + 100px)" to="calc(100px)"
+      repeatCount="indefinite" fill="freeze" />
+  </circle> -->
+
+
+  <!-- BLUE ELLIPSES -->
+  <g>
+    <g>
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="600,400; 100,900" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="100,-100; -400,400" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="600,-100; 100,400" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="100,400; -400,900" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="560,250; 60,750" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="60,-250; -440,250" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="560,-250; 60,250" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="60,250; -440,750" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="700,200; 200,700" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="200,-300; -300,200" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="700,-300; 200,200" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="200,200; -300,700" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="850,350; 350,850" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="350,-150; -150,350" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="850,-150; 350,350" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="350,350; -150,850" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="800,320; 300,820" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="300,-180; -200,320" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="800,-180; 300,320" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="300,320; -200,820" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="800,150; 300,650" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="300,-350; -200,150" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="800,-350; 300,150" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="300,150; -200,650" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="650,50; 150,550" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="150,-450; -350,50" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="650,-450; 150,50" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="150,50; -350,550" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="710,20; 210,520" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="210,-480; -290,20" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="710,-480; 210,20" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="210,20; -290,520" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="910,60; 410,560" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="410,-440; -90,60" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="910,-440; 410,60" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="410,60; -90,560" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="910,260; 410,760" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="410,-240; -90,260" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="910,-240; 410,260" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseSmall" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="410,260; -90,760" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="930,460; 430,960" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="430,-40; -70,460" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="930,-40; 430,460" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="blue">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="4s"
+          values="430,460; -70,960" repeatCount="indefinite" />
+      </use>
+    </g>
+  </g>
+
+
+  <!-- RED ELLIPSES -->
+  <g>
+    <g>
+      <use href="#ellipseXtraLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="100,600; 600,100" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-400,100; 100,-400" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="100,100; 600,-400" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-400,600; 100,100" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseXtraLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="150,800; 650,300" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-350,300; 150,-200" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="150,300; 650,-200" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseXtraLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-350,800; 150,300" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="400,700; 900,200" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-100,200; 400,-300" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="400,200; 900,-300" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-100,700; 400,200" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="350,900; 850,400" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-150,400; 350,-100" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="350,400; 850,-100" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseLarge" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-150,900; 350,400" repeatCount="indefinite" />
+      </use>
+    </g>
+
+    <g>
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="250,500; 750,0" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-250,1000; 250,500" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="250,0; 750,-500" repeatCount="indefinite" />
+      </use>
+
+      <use href="#ellipseRegular" transform="translate(0, 0)" class="red">
+        <animateTransform attributeName="transform" type="translate" begin="0s" dur="2s"
+          values="-250,500; 250,0" repeatCount="indefinite" />
+      </use>
+    </g>
+  </g>
+
+</svg>
