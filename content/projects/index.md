@@ -5,7 +5,7 @@ showDate: false
 date: 3
 ---
 
-## ⚙️ Sistemas
+## ⚙️ Systems
 ### ⛓️ Blockchain Logger
 A `microservice` running in a `Docker` container that uses a Blockchain network to save log data. Created in `Python` and Flask, it acts as the logger for an API, creating records for each action taken by the user, generating retractability and aiding auditing processes.
 

@@ -2,7 +2,7 @@
 
 [![Website preview](docs/preview.jpg)](https://luizglomyer.github.io)
 
-My personal website, a place for showing some of my projects and skills, to talk about technology, to share my thoughts and to sometimes ramble about random stuff.
+My personal website, a place for showing some of my projects and skills, to talk about technology, to share my thoughts and to sometimes ramble about random stuff. It features articles written in both English and Portuguese languages.
 
  Built with [Hugo](https://gohugo.io/) and [Blowfish](https://blowfish.page/). It uses Github Pages as the hosting service, the website is deployed everytime a new commit gets into the main branch, thanks to Github Actions. You can access the site here: https://luizglomyer.github.io
 

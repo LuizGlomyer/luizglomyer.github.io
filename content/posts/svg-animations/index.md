@@ -130,7 +130,7 @@ An interesting detail in both animations is the definition of an `overflow: visi
 
 ## 👁️ Hyperzone background
 
-The background for this post comes from the game Kirby's Dream Land 3. I've always wanted to implement this background, so I took the opportunity and challenged myself to recreate it purely with .svg animations (no Javascript!). I must say that it was a disastrous experience in which I learned a good lesson: don't try to reinvent the wheel. Certain things shouldn't be done from scratch.
+The background for this post comes from the game `Kirby's Dream Land 3`. I've always wanted to implement this background, so I took the opportunity and challenged myself to recreate it purely with .svg animations (no Javascript!). I must say that it was a disastrous experience in which I learned a good lesson: don't try to reinvent the wheel. Certain things shouldn't be done from scratch.
 
 The .svg has a resolution of 500x500. To create an infinite pattern, I needed to make auxiliary ellipses to give the illusion of leaving one side of the screen and entering the other. First, I had a lot of manual work to make each of the ellipses move, needing to calculate each start and end coordinate of the animation. In addition, I had numerous clipping problems, sometimes the ellipses didn't line up perfectly and the transition wasn't smooth, I needed to use a lot of trial and error to get it right. Never do something like this from scratch, seriously.
 

@@ -130,7 +130,7 @@ Um detalhe interessante em ambas as animações é a definição de um `overflow
 
 ## 👁️ Hyperzone background
 
-O background dessa postagem vem do jogo Kirby's Dream Land 3. Eu sempre tive a vontade de implementar este background, então aproveitei a deixa e me desafiei a recriá-lo puramente com animações .svg (sem Javascript!). Devo dizer que foi uma experiência desastrosa na qual eu aprendi uma boa lição: não tente reinventar a roda. Certas coisas não devem ser feitas do absoluto zero. 
+O background dessa postagem vem do jogo `Kirby's Dream Land 3`. Eu sempre tive a vontade de implementar este background, então aproveitei a deixa e me desafiei a recriá-lo puramente com animações .svg (sem Javascript!). Devo dizer que foi uma experiência desastrosa na qual eu aprendi uma boa lição: não tente reinventar a roda. Certas coisas não devem ser feitas do absoluto zero. 
 
 O .svg tem resolução 500x500. Para criar um padrão infinito precisei fazer elipses auxiliares para proporcionar a ilusão de sair de um lado da tela e entrar pelo outro. Primeiramente, tive muito trabalho braçal para fazer cada translado de cada uma das elipses, precisando calcular cada coordenada de início e fim da animação. Além disso, tive inúmeros problemas de clipping, às vezes as elipses não se alinhavam com perfeição e a transição não era suave, precisei usar de muita tentativa e erro para dar certo. Nunca faça um negócio desses do zero, sério.
 
