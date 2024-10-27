@@ -17,7 +17,7 @@ Quando entrei pela primeira vez na landing page do tema [Blowfish](https://blowf
 
 <iframe 
   src="https://blowfish.page/" 
-  width="500px" 
+  width="100%" 
   height="480px"
 >
 </iframe>
