@@ -9,7 +9,7 @@ isoCode = "pt-BR"
 rtl = false
 dateFormat = "2 de January de 2006"
 
-[author]
+[params.author]
 name = "Luiz Glomyer"
 headline = "Software Developer"
 image = "img/pfp.jpg"
