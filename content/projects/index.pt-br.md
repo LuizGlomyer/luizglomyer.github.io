@@ -21,7 +21,7 @@ Demonstração:
 ### 🔥 EMBER
 Um sistema de controle de acesso escrito em Python que fiz como proposta de projeto final do meu curso de Sistemas de Informação. Usa um `Raspberry Pi` para atuar como mediador para permitir ou negar acesso a recursos computacionais por meio de um leitor e cartões `RFID`.
 
-![Fritzing Model](https://camo.githubusercontent.com/af434c2cd5fc29b530ddf1583b4a0ce04dec832a70d63af04dd8c2f69a821fb9/68747470733a2f2f66696c65732e636174626f782e6d6f652f6879713233722e706e67)
+![Fritzing Model](ember-diagram.png)
 
 EMBER significa **E**ntrada **M**ediada por **B**lockchain, **E**thereum e **R**aspberry. Infelizmente a proposta do projeto não foi aprovada, então o código não contempla o aspecto Blockchain do projeto. No entanto, o sistema de controle de acesso está totalmente funcional.
 
@@ -49,12 +49,15 @@ Demonstração:
 Estes são alguns códigos que criei durante meus anos de aprendizado na faculdade. Os chamo de legado pois, atualmente, observo que eles não possuem a qualidade que eu preso nos dias de hoje. Mas mesmo assim não deixam de ser aplicações interessantes.
 
 Projetos diversos de criação de aplicativos para celular utilizando a linguagem Dart e o framework Flutter:
+
 {{< github repo="LuizGlomyer/flutter" >}}
 
 Códigos sortidos. O principal são os diversos códigos que fiz em C++, desde estruturas de dados (Grafos, Árvores, Listas Encadeadas) até algoritmos de ordenação e string matching.
+
 {{< github repo="LuizGlomyer/codigos-diversos" >}}
 
 API para gerar nomes aleatórios, tanto em português quanto em inglês. Pretendo dar uma atualizada no futuro.
+
 {{< github repo="LuizGlomyer/name-generator" >}}
 
 ## 👨‍💻 Em desenvolvimento
