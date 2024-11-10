@@ -12,7 +12,7 @@ tags:
 ## Tech Memes
 
 Some assorted memes that I think very funny.
-The [portuguese](/pt-br/posts/memes/) version of this post has more memes as well!
+The [portuguese](/pt-br/posts/tech-memes/) version of this post has more memes as well!
 
 
 >![OS internals](en/os_internals.jpg)
@@ -28,5 +28,5 @@ The [portuguese](/pt-br/posts/memes/) version of this post has more memes as wel
 >**JAVA.EXE**
 {{< youtubeLite id="N-HKIZd3vx4" label="JAVA.EXE" >}}
 
->For data hoarders like me
+>*For data hoarders like me*
 >![Saver](en/saver.png)
