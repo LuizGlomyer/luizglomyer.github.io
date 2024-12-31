@@ -45,7 +45,7 @@ date: 2
     icon="code" 
     header="Creathus Instituto de Tecnologia da Amazônia" 
     badge="Fullstack" 
-    subheader="Manaus/AM, 05/2023 - atualidade" >}}
+    subheader="Manaus/AM, 05/2023 - 10/2024" >}}
 
   Atuação em projetos de P&D e projetos para a indústria:
   
@@ -58,6 +58,25 @@ date: 2
   <b style="color:#bef264">Atribuições</b>: levantamento e análise de requisitos, desenvolvimento fullstack, relacionamento interpessoal com clientes. <br />
 
   <b style="color:#bef264">Skills</b>: Javascript e Typescript (React, Angular, Node.js, NestJS), Java (Spring Boot), banco de dados (PostgreSQL, MongoDB, Firebase), Docker, Github, GitLab, Jira.
+
+  {{< /timelineItem >}}
+
+  {{< timelineItem 
+    icon="code" 
+    header="DTI Digital" 
+    badge="Full-stack" 
+    subheader="Remoto, 10/2024 - atualidade" >}}
+
+  Atuação em projeto de aplicação do setor financeiro para empresa multinacional em um cenário ágil:
+  
+  <ul>
+    <li>Uso de arquitetura distribuída em microsserviços, intermediada por meio de BFF (Backend For Frontend). Utilização de TDD para criação de testes unitários da aplicação. Uso de analisadores estáticos de código para garantia de qualidade (Sonar).</li>
+    <li>Gerência de infraestrutura da aplicação (lambda functions, buckets) com Terraform e pipelines CI/CD do GitLab.</li>
+  </ul>
+
+  <b style="color:#bef264">Atribuições</b>: desenvolvimento full-stack, garantia da qualidade de código, teste de software, gerência de infraestrutura de software.<br />
+
+  <b style="color:#bef264">Skills</b>: Javascript (React), C# (.NET, xUnit), banco de dados (MySQL), Docker, GitLab, Terraform, Jira.
 
   {{< /timelineItem >}}
 
@@ -112,8 +131,10 @@ date: 2
 - [Arduino Basic](https://drive.google.com/file/d/1SbG_RPruB_UzZ7EVxm9qtUtlqZhyQEkL/view?usp=sharing)
 
 
-## 📖 Publicações
+## 📖 Escritas e publicações
 
-- 2020 - [Protótipo em Dart para auxílio na cadeia de criação de peixes da região amazônica](https://www.alice.cnptia.embrapa.br/alice/handle/doc/1136117)
-- 2022 - [Extração e classificação de variáveis do solo no Amazonas a partir de técnicas de inteligência computacional](https://www.alice.cnptia.embrapa.br/alice/handle/doc/1143133)
-- 2023 (TCC) - [SISTEMA DE AUDITORIA BASEADO EM BLOCKCHAIN PARA O APLICATIVO DO RESTAURANTE UNIVERSITARIO DA UEA](https://drive.google.com/file/d/1KTyz9U7bHBQ4IQi6FKKIoVqIkGXH-4oC/view?usp=sharing)
+- 2020 [Embrapa] - [{{< icon "link" >}} Protótipo em Dart para auxílio na cadeia de criação de peixes da região amazônica](https://www.alice.cnptia.embrapa.br/alice/handle/doc/1136117)
+- 2022 [Embrapa] - [{{< icon "link" >}} Extração e classificação de variáveis do solo no Amazonas a partir de técnicas de inteligência computacional](https://www.alice.cnptia.embrapa.br/alice/handle/doc/1143133)
+- 2023 [TCC UEA] - [{{< icon "link" >}} SISTEMA DE AUDITORIA BASEADO EM BLOCKCHAIN PARA O APLICATIVO DO RESTAURANTE UNIVERSITARIO DA UEA](https://drive.google.com/file/d/1KTyz9U7bHBQ4IQi6FKKIoVqIkGXH-4oC/view?usp=sharing)
+- 2024 [TCC IFAM] - [{{< icon "link" >}} ALCANÇANDO QUALIDADE NO PRODUTO FINAL: O PAPEL DO DEVOPS E DO DESENVOLVIMENTO ÁGIL](https://docs.google.com/document/d/1LWDTEi9k_ykGi6CMEpBzvmOt3l4hdxsS/edit?usp=sharing&ouid=116803951867542551138&rtpof=true&sd=true) <br />[{{< icon "link" >}} Banner](https://docs.google.com/presentation/d/1GNau3ZK2rCpB58rg-Z8oQ_V2wxhyF20wRvYjqBF8ZNk/edit?usp=sharing) [{{< icon "link" >}} Apresentação](https://docs.google.com/presentation/d/1eWaoZtRSbGTo8-rpp3_NwrvwfgARZRJLtCqlfSsDGDM/edit?usp=sharing)
+

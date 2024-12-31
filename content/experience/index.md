@@ -45,7 +45,7 @@ date: 2
     icon="code" 
     header="Creathus Amazon Institute of Technology" 
     badge="Fullstack" 
-    subheader="Manaus/AM, 05/2023 - present" >}}
+    subheader="Manaus/AM, 05/2023 - 10/2024" >}}
 
   Work on R&D projects and projects for industry:
   
@@ -58,6 +58,25 @@ date: 2
   <b style="color:#bef264">Assignments</b>: requirements gathering and analysis, fullstack development, interpersonal relationships with customers. <br />
 
   <b style="color:#bef264">Skills</b>: Javascript and Typescript (React, Angular, Node.js, NestJS), Java (Spring Boot), databases (PostgreSQL, MongoDB, Firebase), Docker, Github, GitLab, Jira.
+
+  {{< /timelineItem >}}
+
+  {{< timelineItem 
+    icon="code" 
+    header="DTI Digital" 
+    badge="Full-stack" 
+    subheader="Remote, 10/2024 - present" >}}
+
+  Work on a financial sector application project for a multinational company in an agile scenario:
+  
+  <ul>
+    <li>Use of distributed architecture in microservices, mediated by BFF (Backend For Frontend). Using TDD to create unit tests for the application. Using static code analyzers for quality assurance (Sonar).</li>
+    <li>Management of the application infrastructure (lambda functions, buckets) with Terraform and GitLab CI/CD pipelines.</li>
+  </ul>
+
+  <b style="color:#bef264">Assignments</b>: full-stack development, code quality assurance, software testing, software infrastructure management.<br />
+
+  <b style="color:#bef264">Skills</b>: Javascript (React), C# (.NET, xUnit), databases (MySQL), Docker, GitLab, Terraform, Jira.
 
   {{< /timelineItem >}}
 
@@ -111,8 +130,9 @@ date: 2
 - [Arduino Basic](https://drive.google.com/file/d/1SbG_RPruB_UzZ7EVxm9qtUtlqZhyQEkL/view?usp=sharing)
 
 
-## 📖 Publications
+## 📖 Writings and publications
 
-- 2020 - [Protótipo em Dart para auxílio na cadeia de criação de peixes da região amazônica](https://www.alice.cnptia.embrapa.br/alice/handle/doc/1136117) (*Prototype in Dart to aid the fish farming chain in the Amazon region*)
-- 2022 - [Extração e classificação de variáveis do solo no Amazonas a partir de técnicas de inteligência computacional](https://www.alice.cnptia.embrapa.br/alice/handle/doc/1143133) (*Extraction and classification of soil variables in Amazonas using computational intelligence techniques*)
-- 2023 (TCC) - [SISTEMA DE AUDITORIA BASEADO EM BLOCKCHAIN PARA O APLICATIVO DO RESTAURANTE UNIVERSITARIO DA UEA](https://drive.google.com/file/d/1KTyz9U7bHBQ4IQi6FKKIoVqIkGXH-4oC/view?usp=sharing) (*BLOCKCHAIN-BASED AUDIT SYSTEM FOR THE UEA UNIVERSITY RESTAURANT APPLICATION*)
+- 2020 [Embrapa] - [{{< icon "link" >}} Protótipo em Dart para auxílio na cadeia de criação de peixes da região amazônica](https://www.alice.cnptia.embrapa.br/alice/handle/doc/1136117) (*Prototype in Dart to aid the fish farming chain in the Amazon region*)
+- 2022 [Embrapa] - [{{< icon "link" >}} Extração e classificação de variáveis do solo no Amazonas a partir de técnicas de inteligência computacional](https://www.alice.cnptia.embrapa.br/alice/handle/doc/1143133) (*Extraction and classification of soil variables in Amazonas using computational intelligence techniques*)
+- 2023 [TCC UEA] - [{{< icon "link" >}} SISTEMA DE AUDITORIA BASEADO EM BLOCKCHAIN PARA O APLICATIVO DO RESTAURANTE UNIVERSITARIO DA UEA](https://drive.google.com/file/d/1KTyz9U7bHBQ4IQi6FKKIoVqIkGXH-4oC/view?usp=sharing) (*BLOCKCHAIN-BASED AUDIT SYSTEM FOR THE UEA UNIVERSITY RESTAURANT APPLICATION*)
+- 2024 [TCC IFAM] - [{{< icon "link" >}} ALCANÇANDO QUALIDADE NO PRODUTO FINAL: O PAPEL DO DEVOPS E DO DESENVOLVIMENTO ÁGIL](https://docs.google.com/document/d/1LWDTEi9k_ykGi6CMEpBzvmOt3l4hdxsS/edit?usp=sharing&ouid=116803951867542551138&rtpof=true&sd=true) (*ACHIEVING QUALITY IN THE FINAL PRODUCT: THE ROLE OF DEVOPS AND AGILE DEVELOPMENT*). <br />[{{< icon "link" >}} Banner](https://docs.google.com/presentation/d/1GNau3ZK2rCpB58rg-Z8oQ_V2wxhyF20wRvYjqBF8ZNk/edit?usp=sharing) [{{< icon "link" >}} Presentation](https://docs.google.com/presentation/d/1eWaoZtRSbGTo8-rpp3_NwrvwfgARZRJLtCqlfSsDGDM/edit?usp=sharing)
