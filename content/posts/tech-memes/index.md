@@ -12,34 +12,26 @@ tags:
 ## Tech Memes
 
 Some assorted memes that I think are very funny. Not restricted to only technology, actually.
-The [portuguese](/pt-br/posts/tech-memes/) version of this post has more memes as well!
+The [portuguese](/pt-br/posts/tech-memes/) version of this post has more memes as well! Most memes come from [this](https://www.instagram.com/stem357/) page, its great go check it out.
 
 
 ### Programming
 
->![OS internals](en/os_internals.jpg)
+>![Read the docs](en/programming/read-the-docs.jpg)
 
->![Machine learning accuracy](en/ml_accuracy.jpeg)
+>![Stop doing async](en/programming/stop-doing-async.jpg)
 
->![Coomitter](en/coomitter.jpg)
+>![Norwegian lingo](en/programming/norwegian-lingo.jpg)
 
->![Stop doing async](en/stop_doing_async.jpg)
+>![Coomitter](en/programming/coomitter.jpg)
 
->![Miku commit](en/miku_commit.jpeg)
+>![Machine learning accuracy](en/programming/ml-accuracy.jpeg)
 
->![Clothes cache](en/clothes_cache.jpeg)
+>![Miku commit](en/programming/miku-commit.jpeg)
 
->![WTFs per minute](en/wtfs_per_minute.png)
+>![WTFs per minute](en/programming/wtfs-per-minute.png)
 
->![Shakespeare SSL](en/shakespeare_ssl.jpg)
-
->![Binary statements](en/binary_statements.jpg)
-
->![Oracle aaS](en/oracle_ass.jpeg)
-
->![Cybersecurity finals](en/xkcdc_final_exam.png)
-
->![Brute force passwords](en/bruteforce.jpg)
+>![Binary statements](en/programming/binary-statements.jpg)
 
 >**JAVA.EXE**
 {{< youtubeLite id="N-HKIZd3vx4" label="JAVA.EXE" >}}
@@ -51,24 +43,65 @@ The [portuguese](/pt-br/posts/tech-memes/) version of this post has more memes a
 >![Saver](en/saver.png)
 
 
-### Business
+### Computers
 
->![Talk to users](en/talk_to_users.jpeg)
+>![OS internals](en/computers/os-internals.jpg)
 
->![We use scrum](en/we_use_scrum.jpeg)
+>![USB superposition](en/computers/usb-superposition.jpg)
 
->![Linkedin profile](en/linkedin_profile.jpeg)
+>![Clothes cache](en/computers/clothes-cache.jpeg)
+
+
+### Software
+
+>![Thing as a Service](en/software/thing-as-a-service.jpeg)
+
+>![Office puns](en/software/office-puns.jpg)
+
+>![Oracle aaS](en/software/oracle-ass.jpeg)
+
+
+### Security
+
+>![Shakespeare SSL](en/security/shakespeare-ssl.jpg)
+
+>![Cybersecurity finals](en/security/cibersecurity-finals.png)
+
+>![Brute force passwords](en/security/bruteforce-password.jpg)
+
+
+### Business/HR/Education
+
+>![Talk to users](en/business/talk-to-users.jpeg)
+
+>![We use scrum](en/business/we-use-scrum.jpeg)
+
+>![Linkedin profile](en/business/linkedin-profile.jpeg)
+
+>![Attatchment issues](en/business/attatchment-issues.jpg)
 
 
 ### STEM
 
 >![Pointless](en/stem/pointless.jpeg)
 
->![Stop sine](en/stem/stop_sine.jpeg)
+>![Meal layers](en/stem/meal-layers.jpg)
+
+>![Physics is just dark magic](en/stem/physics-dark-magic.jpg)
+
+>![Stop sine](en/stem/stop-sine.jpeg)
+
+>![Gravity](en/stem/gravity.jpg)
 
 >![Schlop](en/stem/schlop.jpeg)
+
+>![Topologists morning routine](en/stem/topologists-morning-routine.jpg)
+
+>![Fig 1 Fig2](en/stem/fig1fig2.jpg)
+
+>![Fig 1 Fig2 Table 1](en/stem/fig1fig2-table1.jpg)
 
 
 ### Philosophy
 
->![Sisyphus dilemma](en/philosophy/sisyphus_dilemma.jpeg)
+>![Sisyphus dilemma](en/philosophy/sisyphus-dilemma.jpeg)
