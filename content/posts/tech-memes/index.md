@@ -42,6 +42,12 @@ The [portuguese](/pt-br/posts/tech-memes/) version of this post has more memes a
 >*For data hoarders like me*
 >![Saver](en/saver.png)
 
+>![Beep boop](en/programming/quality-too-high.jpg)
+
+>![Beep boop](en/programming/refactor-java-monolith.png)
+
+>![Beep boop](en/programming/beep-boop.jpg)
+
 
 ### Computers
 
@@ -51,6 +57,8 @@ The [portuguese](/pt-br/posts/tech-memes/) version of this post has more memes a
 
 >![Clothes cache](en/computers/clothes-cache.jpeg)
 
+>![Chud branch predictor](en/computers/chud-branch-predictor.jpg)
+
 
 ### Software
 
@@ -59,6 +67,10 @@ The [portuguese](/pt-br/posts/tech-memes/) version of this post has more memes a
 >![Office puns](en/software/office-puns.jpg)
 
 >![Oracle aaS](en/software/oracle-ass.jpeg)
+
+>![Microslop](en/software/microslop.jpg)
+
+>![No replayability](en/software/no-replayability.webp)
 
 
 ### Security
@@ -80,6 +92,10 @@ The [portuguese](/pt-br/posts/tech-memes/) version of this post has more memes a
 
 >![Attatchment issues](en/business/attatchment-issues.jpg)
 
+>![LinkedIn speak](en/business/linkedin-speak.jpg)
+
+>![Consulting keyboard](en/business/consulting-keyboard.jpg)
+
 
 ### STEM
 
@@ -100,6 +116,10 @@ The [portuguese](/pt-br/posts/tech-memes/) version of this post has more memes a
 >![Fig 1 Fig2](en/stem/fig1fig2.jpg)
 
 >![Fig 1 Fig2 Table 1](en/stem/fig1fig2-table1.jpg)
+
+>![Math notation](en/stem/math-notation.jpg)
+
+>![Cat singularity](en/stem/cat-singularity.jpg)
 
 
 ### Philosophy
